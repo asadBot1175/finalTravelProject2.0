@@ -51,7 +51,7 @@ namespace finalTravelProject2
         {
             GetElementText(FirstName, "Bruce");
             GetElementText(LastName, "Jake");
-            GetElementText(Email, "brucejake11756@gmail.com");
+            GetElementText(Email, "brucejake1176@gmail.com");
             GetElementText(PhoneNumber, "09004567");
             GetElementText(CompanyName, " USA Motors");
             GetElementText(StreetAddress, " Liberty Chowk ");

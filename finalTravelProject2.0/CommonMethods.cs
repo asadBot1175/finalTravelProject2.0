@@ -52,6 +52,7 @@ log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().Dec
         {
             IWebElement element = driver.FindElement(By);
             element.SendKeys(Text);
+            log.Info("Application is working");
         }
         public void Selectdropdown(By By, string text)
         {
