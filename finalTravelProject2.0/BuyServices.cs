@@ -21,6 +21,7 @@ namespace finalTravelProject2
         By CheckoutBtn = By.Id("checkout");
         By AdditionalNotes = By.XPath("//textarea[@name='notes']");
         By CompleteOrderBtn = By.Id("btnCompleteOrder");
+        By DownloadInvoice = By.XPath("//i[@class='fas fa-download']");
 
         public void BuyNewOrderServices()
         {
@@ -36,6 +37,7 @@ namespace finalTravelProject2
             GetElementClick(CheckoutBtn);
             GetElementText(AdditionalNotes, " Thanks for Your awesome Services");
             GetElementClick(CompleteOrderBtn);
+            GetElementClick(DownloadInvoice);
 
         }
 

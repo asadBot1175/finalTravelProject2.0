@@ -71,10 +71,17 @@ namespace finalTravelProject2
             [TestMethod]
             public void CustomerLogin()
             {
-                
-                buyServices.BuyNewOrderServices();
+
+                login.Customerlogin();
 
             }
+
+            [TestMethod]
+            public void BuyServices()
+            {
+                buyServices.BuyNewOrderServices();
+            }
+
 
 
         }
